@@ -1,0 +1,10 @@
+server:
+  port: 8085
+
+app:
+  security:
+    client-id: bcp-reto
+    client-secret: secret
+    grant-type: client_credentials
+    scopes: all
+    access-token-time: 3000
